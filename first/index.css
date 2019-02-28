@@ -1,0 +1,30 @@
+/*  header: #444
+    middle: #EFEFEF
+    sides: #D8D8D8
+    bottom: #222    */
+
+.header {
+    height: 15vh;
+    width: 100%;
+    background: #444;
+}
+
+.grey-back {
+    height: 85vh;
+    width: 100%;
+    background: #D8D8D8;
+}
+
+.white-body {
+    height: 90%;
+    width: 70%;
+    margin-left: 15%;
+    background: #EFEFEF;
+}
+
+.footer {
+    height: 50px;
+    width: 70%;
+    margin-left: 15%;
+    background: #222;
+}
