@@ -1,0 +1,50 @@
+/*
+grey: #D8D8D8
+blue: #4A90E2
+sea-green: #50E3C2
+green: #B8E986
+yellow: #F8E71C
+*/
+body {
+    box-sizing: border-box;
+}
+
+header {
+	width: 100%;
+	height: 125px;
+	padding-top: 25px;
+	padding-left: 25px;
+	background-color: #d8d8d8;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	background-color: #4A90E2;
+}
+
+.textbox h2 {
+	margin: 4%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box {
+	width: 100%;
+	height: 150px;
+}
+
+#blue {
+	background-color: #4a90e2;
+}
+
+#teal {
+	background-color: #50e3c2;
+}
+
+#green {
+	background-color: #B8E986;
+}
+
+#yellow {
+	background-color: #F8E71C;
+}
