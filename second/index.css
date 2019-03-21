@@ -5,45 +5,46 @@ blue: #87CEEb
 off-white: #FFFACD
 text: #000080
 */
-body{
+body {
     box-sizing: border-box;
 }
 
 .top-box {
     width: 100%;
-    padding: 10px;
     border: 3px solid;
+    padding-bottom: 15px;
 }
 
 #purple-rect {
-    height: 90px;
+    height: 100px;
     width: 40px;
-    background: #8A2BE2;
+    background-color: #8A2BE2;
     display: inline-block;
-    margin-left: 10%; 
+    margin-left: 10px; 
 }
 
 #green-rect {
     height: 150px;
-    width: 250px;
-    background: #228B22;
+    width: 300px;
+    background-color: #228B22;
     display: inline-block;
-    margin-left: 20%; 
+    margin-left: 5%; 
+    margin-top: 15px;
 }
 
 #circle {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background: #87CEEb;
+    background-color: #87CEEb;
     display: inline-block;
-    margin-left: 60%;
+    margin-left: 5%;
   }
 
 
 .middle-box {
-    width: 100%;
-    padding: 10px;
+    width: 90%;
+    padding: 5%;
     border: dotted;
     margin-top: 25px;
 }
@@ -51,14 +52,14 @@ body{
 #inside-box {
     width: 100%;
     height: 200px;
-    background: #FFFACD;
+    background-color: #FFFACD;
     box-shadow: 5px 5px 10px;
 }
 
 .bottom-box {
     height: 250px;
     width: 50%;
-    padding: 100px;
+    padding-top: 100px;
     box-shadow: 5px 5px 10px;
     margin: 25px auto;
 }
@@ -66,6 +67,6 @@ body{
 .bottom-box h1 {
     text-align: center;
     letter-spacing: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #000080;
 }
